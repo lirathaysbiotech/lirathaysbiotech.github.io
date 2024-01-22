@@ -1,1 +1,0 @@
-# lirathaysbiotech.github.io

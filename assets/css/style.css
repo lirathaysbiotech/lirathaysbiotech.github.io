@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #ec9957;;
+
+    --primary-bg-color: #02012B;
+    --secondary-bg-color: #44444a;
+    --border-color: #2f6cdb;
+    
+    --title-color:  #1db9f6;
+    --link-color: #ec9957;
+    --text-color: #ec9957;
+    --icon-color: #ec9957;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    list-style: none;
+
+}
+
+body {
+
+    background: var(--primary-bg-color);
+}
+a {
+    text-decoration: none;
+}
+
+i {
+    color: var(--icon-color);
+    ;
+}
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.header__brand .brand__Logo {
+    width: 3.25rem;
+    height: 3.25rem;
+}
+
+#toggleTheme {
+    font-size: 1.5rem;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu--mobile {
+    justify-content:space-between;
+}
+
+.menu--mobile .menu__link {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.menu__icon, .menu__text {
+    color: var(--text-color);
+}
+
+.menu__icon {
+    font-size: 1.5rem;
+}
+
+.menu__text {
+    font-size: 1.75rem;
+}
